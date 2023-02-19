@@ -1,0 +1,38 @@
+.gutter {
+    padding: 45px 20px;
+}
+
+.gutter .gutter {
+    padding: 35px 0;
+}
+
+.relnew-inner {
+    display: block;
+}
+
+@media (min-width:768px) {
+    .relnew-inner {
+        align-items: center;
+        display: flex;
+    }
+}
+
+.relnew-right {
+    padding: 25px 0;
+}
+
+@media (min-width:768px) {
+    .relnew-right {
+        padding: 25px;
+    }
+}
+
+.relnew-inner h3 {
+    color: var(--color--text-primary);
+}
+
+.relnew-inner h3:focus,
+.relnew-inner h3:hover {
+    color: var(--color--primary);
+}
+.relnew-right span{font-size: 14px;color:#000}
